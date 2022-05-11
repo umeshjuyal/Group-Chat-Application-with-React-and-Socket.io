@@ -1,0 +1,22 @@
+{
+  "name": "tutorial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server",
+    "setup": "npm i && cd react-chat-app && npm i",
+    "dev": "concurrently \"npm run server\" \"cd react-chat-app && npm start\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "To set up is very easy. Just run: ```bash npm run setup ``` After the installation is complete, then run: ```bash npm run dev ``` Till We Cross Path, I remain, Fredrick Emmanuel (divofred)😁😁❤❤",
+  "dependencies": {
+    "concurrently": "^6.5.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16",
+    "socket.io": "^4.5.0"
+  }
+}
